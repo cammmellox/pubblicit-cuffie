@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cuffie UltraSound Pro</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #f8f9fa, #e9ecef);
+    }
+
+    .hero {
+      background: linear-gradient(135deg, #343a40, #212529);
+      color: white;
+      animation: fadeIn 2s ease-in-out;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    .feature-card {
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .feature-card:hover {
+      transform: scale(1.05);
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    }
+
+    .price-tag {
+      font-size: 2rem;
+      font-weight: bold;
+      color: #198754;
+    }
+
+    .btn-acquista {
+      transition: background 0.3s ease;
+    }
+
+    .btn-acquista:hover {
+      background-color: #157347;
+    }
+
+    .fade-in {
+      animation: fadeInUp 1s ease-in-out;
+    }
+
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Hero Section -->
+  <header class="hero text-center py-5">
+    <div class="container">
+      <h1 class="display-4">Cuffie UltraSound Pro</h1>
+      <p class="lead">Qualità premium. Design moderno. Solo 45€.</p>
+      <a href="#acquista" class="btn btn-success btn-lg mt-3 btn-acquista">Acquista ora per 45€</a>
+    </div>
+  </header>
+
+  <!-- Features Section -->
+  <section class="py-5">
+    <div class="container">
+      <div class="row g-4 text-center">
+        <div class="col-md-4 fade-in">
+          <div class="card p-4 border-0 shadow feature-card">
+            <img src="https://m.media-amazon.com/images/I/6199Luw-Q7L._AC_UF1000,1000_QL80_.jpg" class="mb-3 rounded" alt="Audio Alta Qualità">
+            <h4>Audio di Alta Qualità</h4>
+            <p>Immergiti in un'esperienza sonora pura, con bassi profondi e alti cristallini.</p>
+          </div>
+        </div>
+        <div class="col-md-4 fade-in">
+          <div class="card p-4 border-0 shadow feature-card">
+            <img src="https://m.media-amazon.com/images/I/81E0O9bLYhL._AC_UF350,350_QL80_.jpg" class="mb-3 rounded" alt="Comfort Assoluto">
+            <h4>Comfort Totale</h4>
+            <p>Cuscinetti in memory foam e archetto regolabile per un comfort che dura tutto il giorno.</p>
+          </div>
+        </div>
+        <div class="col-md-4 fade-in">
+          <div class="card p-4 border-0 shadow feature-card">
+            <img src="https://m.media-amazon.com/images/I/611rZO+ftkL._AC_SL1500_.jpg" class="mb-3 rounded" alt="Design Moderno">
+            <h4>Design Moderno</h4>
+            <p>Eleganti, leggere e con un look minimalista perfetto per ogni occasione.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Call to Action -->
+  <section id="acquista" class="bg-white py-5 text-center">
+    <div class="container">
+      <h2 class="mb-4">Offerta Lancio: Solo 45€</h2>
+      <p class="price-tag mb-4">Prezzo esclusivo per tempo limitato!</p>
+      <a href="#" class="btn btn-success btn-lg btn-acquista">Ordina ora</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-4">
+    <p class="mb-0">© 2025 UltraSound. Tutti i diritti riservati.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+</html>
+
